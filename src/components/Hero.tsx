@@ -28,11 +28,18 @@ const Hero = () => {
           </h1>
           
           {/* Subheading */}
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-muted-foreground">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-muted-foreground">
             Crafting innovative mobile experiences with{" "}
             <span className="text-primary">Kotlin</span> &{" "}
             <span className="text-tech-blue">Jetpack</span>
           </h2>
+          
+          {/* Experience Badge */}
+          <div className="mb-8">
+            <Badge className="px-6 py-2 text-lg font-semibold bg-gradient-to-r from-primary to-tech-blue text-white border-0">
+              6+ Years Experience
+            </Badge>
+          </div>
           
           {/* Summary */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
