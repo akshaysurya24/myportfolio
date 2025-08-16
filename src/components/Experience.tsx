@@ -4,7 +4,7 @@ import { CalendarDays, MapPin, Building } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Android Developer",
+    title: "Specialist software engineer",
     company: "LTIMindtree",
     location: "Bengaluru",
     period: "04/2025 - Present",

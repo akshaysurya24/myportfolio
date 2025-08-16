@@ -24,7 +24,7 @@ const Hero = () => {
           
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-tech-blue bg-clip-text text-transparent">
-            Android Developer
+            Senior Mobile Developer
           </h1>
           
           {/* Subheading */}
