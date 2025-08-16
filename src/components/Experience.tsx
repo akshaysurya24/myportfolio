@@ -5,9 +5,23 @@ import { CalendarDays, MapPin, Building } from "lucide-react";
 const experiences = [
   {
     title: "Senior Android Developer",
+    company: "LTIMindtree",
+    location: "Bengaluru",
+    period: "04/2025 - Present",
+    highlights: [
+      "Working on innovative Kotlin Multiplatform projects to enable seamless cross-platform development.",
+      "Implementing shared business logic across Android and iOS platforms using KMP architecture.",
+      "Collaborating with cross-functional teams to deliver unified mobile solutions.",
+      "Leveraging Kotlin Multiplatform Mobile (KMM) for efficient code sharing and maintenance.",
+      "Contributing to the evolution of multiplatform development practices within the organization."
+    ],
+    current: true
+  },
+  {
+    title: "Senior Android Developer",
     company: "Rapl Technologies Private Limited",
     location: "Bengaluru",
-    period: "10/2023 - Present",
+    period: "10/2023 - 04/2025",
     highlights: [
       "Developed a Unified Learning Path feature to enhance user understanding and engagement.",
       "Integrated graphics and animations for a dynamic and interactive user experience.",
@@ -16,7 +30,7 @@ const experiences = [
       "Wrote unit test cases using JUnit and Espresso to ensure high code reliability.",
       "Managed Play Store releases, ensuring seamless updates and timely deployment."
     ],
-    current: true
+    current: false
   },
   {
     title: "Senior Android Developer",

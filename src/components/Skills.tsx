@@ -37,7 +37,7 @@ const skillCategories = [
   {
     title: "Cross-Platform Frameworks",
     icon: Layers,
-    skills: ["React Native", "Flutter"],
+    skills: ["Kotlin Multiplatform", "React Native", "Flutter"],
     color: "tech-blue"
   },
   {
