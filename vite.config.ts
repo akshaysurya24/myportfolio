@@ -21,6 +21,7 @@ export default defineConfig(({ mode }) => ({
   },
   base: "/kotliner-nexus/",
   build: {
-    outDir: "docs",
+    outDir: ".",
+    emptyOutDir: true,
   },
 }));
