@@ -17,10 +17,6 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-  },
-  // 👇 must match your GitHub repo name
-  base: "/myportfolio/",
-  build: {
-    outDir: "dist", // 👈 use dist for GitHub Pages deployment
-  },
+  }
+ 
 }));
