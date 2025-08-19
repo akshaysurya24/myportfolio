@@ -11,16 +11,16 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    mode === "development" && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/kotliner-nexus/",
+  // 👇 must match your GitHub repo name
+  base: "/myportfolio/",
   build: {
-    outDir: "docs",
+    outDir: "dist", // 👈 use dist for GitHub Pages deployment
   },
 }));
